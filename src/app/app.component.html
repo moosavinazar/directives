@@ -1,2 +1,2 @@
-<p *ngIf="isCorrect">ngIf true</p>
-<p *ngIf="!isCorrect">ngIf false</p>
+<p *ngIf="isCorrect; else elsecond">ngIf true</p>
+<ng-template #elsecond>Else condition</ng-template>
