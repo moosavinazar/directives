@@ -32,4 +32,33 @@ export class AppComponent {
       name: 'foad'
     }
   ];
+
+  public addNewUser() {
+    this.usersObj = [
+      {
+        id: 1,
+        name: 'hasan'
+      },
+      {
+        id: 2,
+        name: 'asiye'
+      },
+      {
+        id: 3,
+        name: 'mohamad'
+      },
+      {
+        id: 4,
+        name: 'ali'
+      },
+      {
+        id: 5,
+        name: 'foad'
+      },
+      {
+        id: 6,
+        name: 'javad'
+      },
+    ];
+  }
 }

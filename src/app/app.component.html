@@ -2,4 +2,5 @@
 <ng-template #elsecond>Else condition</ng-template>
 <br>
 <br>
+<button (click)="addNewUser()">Add New User</button>
 <p *ngFor="let user of usersObj">{{ user.id + ' : ' + user.name }}</p>
