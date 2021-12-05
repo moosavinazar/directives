@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isCorrect: boolean = true;
 
+  switchProperty: string = 'd';
+
   users: string[] = ['hasan', 'asiye', 'mohamad', 'ali', 'foad'];
 
   usersObj: any = [
