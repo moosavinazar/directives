@@ -61,4 +61,8 @@ export class AppComponent {
       },
     ];
   }
+
+  public trackByFunc(index: number, el: any) {
+    return el.id;
+  }
 }

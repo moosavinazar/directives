@@ -3,4 +3,4 @@
 <br>
 <br>
 <button (click)="addNewUser()">Add New User</button>
-<p *ngFor="let user of usersObj">{{ user.id + ' : ' + user.name }}</p>
+<p *ngFor="let user of usersObj; trackBy: trackByFunc">{{ user.id + ' : ' + user.name }}</p>
