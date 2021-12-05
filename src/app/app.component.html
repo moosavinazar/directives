@@ -1,5 +1,10 @@
 <p *ngIf="isCorrect; else elsecond">ngIf true</p>
 <ng-template #elsecond>Else condition</ng-template>
+
+<ng-template [ngIf]="isCorrect">
+  <p>ngIf true</p>
+</ng-template>
+
 <br>
 <br>
 <button (click)="addNewUser()">Add New User</button>
