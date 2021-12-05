@@ -2,4 +2,4 @@
 <ng-template #elsecond>Else condition</ng-template>
 <br>
 <br>
-<p *ngFor="let user of users">{{ user }}</p>
+<p *ngFor="let user of users; let i=index">{{ i + ' : ' + user }}</p>
